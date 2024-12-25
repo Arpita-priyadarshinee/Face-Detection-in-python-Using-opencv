@@ -163,7 +163,7 @@ def detect_faces(cascade, test_image, scaleFactor = 1.1):
 
 
 #loading image
-test_image2 = cv2.imread('test_image.jpg')
+test_image2 = cv2.imread('/content/test2.jpeg')
 
 #call the function to detect faces
 faces = detect_faces(haar_cascade_face, test_image2)
